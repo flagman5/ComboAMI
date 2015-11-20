@@ -102,7 +102,7 @@ git config --global color.diff auto
 git config --global color.status auto
 
 ### Clone ComboAMI ###
-git clone https://github.com/riptano/ComboAMI.git datastax_ami
+git clone https://github.com/flagman5/ComboAMI.git datastax_ami
 cd datastax_ami
 # The COMBOAMI_BRANCH environment variable is set by packer
 # and configured in the provisioner config
