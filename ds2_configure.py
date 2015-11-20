@@ -415,8 +415,8 @@ def clean_installation():
             conf.set_config('Cassandra', 'partitioner', 'murmur')
             conf.set_config('Cassandra', 'vnodes', 'True')
         else:
-            logger.exe('sudo apt-get install -y python-cql datastax-agent dsc22')
-            conf.set_config('AMI', 'package', 'dsc22')
+            logger.exe('sudo apt-get install -y python-cql datastax-agent dsc30')
+            conf.set_config('AMI', 'package', 'dsc30')
             conf.set_config('Cassandra', 'partitioner', 'murmur')
             conf.set_config('Cassandra', 'vnodes', 'True')
         logger.exe('sudo service cassandra stop')
